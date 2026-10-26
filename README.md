@@ -45,16 +45,6 @@ Para verificar que el entorno esté correctamente configurado:
 flutter doctor
 ```
 
-## Estructura del proyecto
-
-```
-lib/
-  models/       -> Producto, Lote, Movimiento
-  db/           -> DatabaseHelper (SQLite, lógica PEPS, resumen financiero)
-  services/     -> notificaciones, manejo de imágenes, exportación a Excel
-  screens/      -> pantallas de la app
-  main.dart
-```
 
 ## Generar APK firmado (release)
 
