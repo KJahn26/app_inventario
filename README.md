@@ -44,23 +44,3 @@ Para verificar que el entorno esté correctamente configurado:
 ```bash
 flutter doctor
 ```
-
-
-## Generar APK firmado (release)
-
-Ver la sección 8 de la documentación completa del proyecto (`documentacion_final.docx`) para el proceso detallado de generación del keystore y firma. Resumen rápido:
-
-```bash
-flutter clean
-flutter build apk --release
-```
-
-El archivo resultante queda en `build/app/outputs/flutter-apk/app-release.apk`.
-
-## Documentación adicional
-
-La documentación completa del proyecto (arquitectura, modelo de datos, lógica de negocio, casos de uso, troubleshooting y roadmap) está disponible en `documentacion_final.docx`, en la raíz del repositorio.
-
-## Estado del proyecto
-
-MVP funcional. Ver la sección "Estado actual y hoja de ruta" de la documentación completa para limitaciones conocidas y mejoras futuras planeadas.
